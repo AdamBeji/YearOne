@@ -1,0 +1,160 @@
+/*NavBar is put on the top of the screen with the width covering the whole page*/ 
+.NavBar {
+    position:absolute; 
+    width:100%; 
+    top:0%; 
+    height: 5em;
+}
+/*The navbar links positioning are formatted to look nice*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5em;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0, 0);
+}
+/*More formatting of the actual links are done here*/ 
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+/*Start of navbar is pushed left*/
+a#start{
+    padding-left: 3em;
+}
+/*all the text is given the same font*/
+h3,h2,p,hgroup,li a,a,figcaption,form input, button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+/*Text given a nice aliceblue font colour*/
+h1,h2,p,hgroup,input#submit{
+    color: aliceblue;
+}
+/* All h3 headings are given the same coloured font*/
+h3{
+    color: teal;
+}
+/*An image of me is used as a background for all the pages*/
+.image1 {
+    position:absolute;
+    width:100%; 
+    height:150%; 
+    background-image:url('AdamEdit.jpg');
+    background-size:cover;
+}
+/*My name is positioned so that it doesn't move at all throughput the pages*/
+hgroup{
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+/*These text sections are positioned in roughly the same area throughout the pages*/ 
+.about,.experience,.education,.portfolio,.table{
+    position:absolute; 
+    padding-left: 6%;
+    width:100%; 
+    top:10%; 
+    padding-right: 43%;
+    height: auto; 
+}
+/*The footer is given the same position throughout the webpages*/
+.footer{
+    position:absolute; 
+    padding-left: 6%;
+    width:100%; 
+    top:130%; 
+    height: auto; 
+}
+/*the footers line is given a set length*/
+hr{
+    margin-right: 45%;
+}
+
+/*the skills section is positioned differently as it shares a page with other sections*/
+.skills{
+    position: absolute;
+    padding-left: 6%;
+    width:100%; 
+    top:60%; 
+    height: auto; 
+}
+/*Allows the text to appear one after the other*/
+p#ed{
+    white-space: pre;
+}
+/*Form element is positioned on the page*/
+.form{
+    position:absolute; 
+    padding-left: 6%;
+    width:100%; 
+    top:25%; 
+    height: auto; 
+    color: aliceblue;
+    font-size: 150%;
+}
+/*input fields given a background*/
+input{
+    background-color: rgba(0, 126, 126, 0.349);
+    border-color: black;
+}
+/*Figure is positioned on the screen*/
+figure{
+    position: absolute;
+    padding-left: 6%;
+    width:30%; 
+    bottom: 80%;
+    top:80%; 
+    height: auto; 
+}
+/*The image is positioned aswell*/
+img#gcse{
+    padding-left: 6%;
+    width:100%; 
+    bottom: 100%;
+    top:100%; 
+    height: auto;
+}
+
+/*Blog form is positioned*/
+.container{
+    position: absolute;
+    width:50%; 
+    top:20%; 
+    height: auto; 
+}
+
+/*Submit and clear buttons are given font colours and are positioned*/
+form input[type="submit"],form input[type="reset"]{
+    background-color: rgba(0, 128, 128, 0.582);
+    color: white;
+    margin-left: 5em;
+    font-size: 0.9em;
+}
+
+/*Reset button floated right*/
+button#clear{
+    float: right;
+    clear: right;
+    background-color:rgba(0, 128, 128, 0.582);
+}
+/*Submit button floated left*/
+button#submit{
+    background-color: rgba(0, 128, 128, 0.582);
+    float: left;
+    clear: left;
+}
+
+.NoInputTitle{
+    background-color: rgba(255, 0, 0, 0.283);
+}
+.NoInputText{
+    background-color: rgba(255, 0, 0, 0.283);
+}
+
+option{
+    background-color: rgba(0, 128, 128, 0.582);
+}
