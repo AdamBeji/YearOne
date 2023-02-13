@@ -1,0 +1,13 @@
+html, header, body, nav, figure, figcaption, footer, article, hgroup, section, h1, h2, h3, img, a, form, input,fieldset,label{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
